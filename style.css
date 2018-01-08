@@ -1,0 +1,131 @@
+@font-face 
+{
+    font-family: 'grand_hotelregular';
+    src: url('grandhotel-regular-webfont.woff2') format('woff2'),
+         url('grandhotel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#lisere
+{
+	align-self: left;
+	border: solid 3px;
+	border-color: grey;
+	background-color: grey;
+	width: 100px;
+	min-height: 1000px;
+	margin-left: 0px;
+	float: left;
+}
+
+h2
+{
+	color: red; /* Couleur du texte */
+	text-shadow: 5px 5px 5px black; /* Ombre du text*/
+}
+
+h1, h1 + p /*Titre et 1er Paragraphe après titre*/
+{
+	text-align: auto; /* Centrer le texte*/
+	color: red;
+
+}
+
+p
+{
+	font-size: 1.5em; /* Taille du Texte*/
+	text-align: center;
+}
+
+body
+{
+margin : auto;
+background: url("image/166.jpg") center ; /*Fond fixe et sans répétition */
+background-size: 10%; /*Taille du Fond*/
+text-align: center;
+background-position: right;
+font-family: 'grand_hotelregular' , 'Comic sans MS' ;
+max-width: auto ; /*Largeur*/
+max-height: auto;
+}
+
+section
+{	
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-around;
+}
+
+div
+{
+background-color: #CFD1D1 ;
+width: 22%;
+height: 5%;
+overflow: hidden;
+border-style: solid;
+border-color: black;
+box-shadow: 3px 3px 3px black;
+border-radius: 10px;
+font-size: 1.3em;
+padding-right: 2%;
+
+}
+
+footer
+{
+	margin-bottom: 100px;
+}
+
+
+span
+{
+	font-size: 1em;
+}
+
+img
+{
+	box-shadow: 10px 10px 10px black;
+	margin-right: 30px;
+	align-items: right;
+}
+
+a
+{
+	text-decoration: underline;
+	color: green;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: lime;
+}
+
+ul, ol
+{
+	list-style-type: none;
+}
+
+@media screen and (max-width: 1024px)
+{
+
+#lisere
+{
+	display: none;
+}
+
+section
+{
+	flex-direction: column;
+	padding: 4px 4px 4px 4px;
+}
+
+div
+{
+	min-width: 95%;
+	margin: 2% 0 2% 1%;
+	clear: right;
+}
+
+}
