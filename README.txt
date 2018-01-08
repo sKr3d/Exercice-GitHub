@@ -4,3 +4,6 @@
 Salut j'apprends avec Openclassrooms
 
 J'en profite pour rajouter 2-3 petites choses ! :)
+
+J'espère avoir réussi l'exercice !
+Bonne journée !
